@@ -1,0 +1,39 @@
+# Ignore build artifacts and executables
+bin/
+build/
+*.exe
+*.out
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore Code::Blocks settings
+*.cbp
+*.layout
+*.depend
+*.depend.bak
+
+# Ignore Xcode settings
+*.xcodeproj/
+*.xcworkspace/
+
+# Ignore temporary files
+*~
+*.swp
+*.swo
+
+# Ignore user-specific files
+*.user
+*.user.*
+*.suo
+*.userprefs
+
+# Ignore macOS metadata
+.DS_Store
+
+# Ignore compiled shaders
+*.vert
+*.frag
+
+# Ignore GLEW binaries
+glew-*/
